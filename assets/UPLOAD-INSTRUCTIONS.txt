@@ -1,0 +1,18 @@
+TRIAGECONNECT PILOT WEBSITE UPDATE
+
+Upload/replace these items in the ROOT of your GitHub repository:
+- index.html
+- styles.css
+- script.js
+- assets folder and all four images inside it
+
+Do not delete CNAME, .gitattributes, README.md, or your other HTML pages.
+
+After GitHub commits and Cloudflare deploys:
+1. Open the website.
+2. Submit one test form.
+3. Check admin@triageconnect.ca for the FormSubmit activation email.
+4. Click the activation/confirmation link.
+5. Submit a second test form and confirm delivery.
+
+The forms send to admin@triageconnect.ca.
