@@ -1,330 +1,51 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TriageConnect.ca</title>
-  <style>
-    :root {
-      --bg: #f4f8fb;
-      --text: #17324d;
-      --muted: #4a6b82;
-      --primary: #0b4f71;
-      --accent: #d43f3f;
-      --card: #ffffff;
-      --shadow: 0 24px 60px rgba(23, 50, 77, 0.08);
-    }
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="TriageConnect.ca supports emergency departments with secure virtual physician assessment pathways for appropriate patients.">
+<title>TriageConnect.ca | Virtual Physician Support for Emergency Departments</title>
+<link rel="stylesheet" href="assets/css/styles.css">
+</head><body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header"><div class="container nav-wrap">
+<a class="brand" href="index.html"><span class="brand-mark">TC</span><span>TriageConnect<strong>.ca</strong></span></a>
+<button class="menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
+<nav class="nav-links" aria-label="Main navigation">
+<a aria-current="page" href="index.html">Home</a><a href="hospital-solutions.html">Hospitals</a><a href="triage-nurses.html">Triage Nurses</a><a href="physicians.html">Physicians</a><a href="about.html">About</a><a href="faq.html">FAQ</a><a class="btn btn-primary" href="contact.html">Contact</a>
+</nav></div></header>
+<main id="main">
+<section class="hero"><div class="container"><div class="hero-inner reveal">
+<span class="eyebrow">Canadian virtual care infrastructure</span>
+<h1>More physician capacity for crowded emergency departments.</h1>
+<p>TriageConnect.ca helps participating emergency departments connect appropriate patients with qualified physicians through secure virtual assessment—supporting patient flow while preserving in-person resources for those who need them most.</p>
+<div class="hero-actions"><a class="btn btn-primary" href="contact.html">Request a hospital consultation</a><a class="btn btn-secondary" href="physicians.html">Join as a physician</a></div>
+</div></div><div class="trust-strip"><div class="container"><div class="trust-grid">
+<div class="trust-item"><strong>Hospital-controlled</strong><span>Eligibility and escalation protocols</span></div>
+<div class="trust-item"><strong>Physician-led</strong><span>Qualified virtual clinical assessment</span></div>
+<div class="trust-item"><strong>Safety-first</strong><span>Clear return-to-ER pathways</span></div>
+<div class="trust-item"><strong>Designed in Canada</strong><span>Built for Canadian healthcare needs</span></div>
+</div></div></div></section>
 
-    * {
-      box-sizing: border-box;
-    }
+<section><div class="container grid-2">
+<div class="reveal"><span class="section-kicker">The challenge</span><h2 class="section-title">Emergency departments need another safe pathway.</h2><p class="section-lead">Long waits, staffing pressures, and crowded treatment areas can delay assessment and increase strain on patients and clinical teams. Some patients require timely physician evaluation but may not initially require an emergency bed or extensive in-person resources.</p>
+<ul class="list-check"><li>Support during peak volume and staffing shortages</li><li>Earlier physician access for appropriate patients</li><li>Reduced waiting-room pressure on triage teams</li><li>More focused use of in-person emergency resources</li></ul></div>
+<div class="image-card reveal"><div class="image-label"><strong>A modern response to a growing access problem</strong><span>Virtual assessment can complement—not replace—the emergency department.</span></div></div>
+</div></section>
 
-    html {
-      scroll-behavior: smooth;
-    }
+<section class="bg-soft"><div class="container"><span class="section-kicker">How it works</span><h2 class="section-title">A clear, hospital-approved workflow.</h2><p class="section-lead">Each participating organization defines its own clinical criteria, governance, documentation, and escalation process.</p>
+<div class="grid-4 pathway">
+<div class="path-step reveal"><div class="bubble">1</div><h3>Patient arrives</h3><p>Registration and normal emergency triage begin.</p></div>
+<div class="path-step reveal"><div class="bubble">2</div><h3>Nurse identifies eligibility</h3><p>Hospital-approved inclusion and exclusion criteria are applied.</p></div>
+<div class="path-step reveal"><div class="bubble">3</div><h3>Virtual physician assesses</h3><p>A qualified physician reviews the case and determines next steps.</p></div>
+<div class="path-step reveal"><div class="bubble">4</div><h3>Right care pathway</h3><p>The patient is treated, referred, followed up, or returned for in-person care.</p></div>
+</div></div></section>
 
-    body {
-      margin: 0;
-      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      min-height: 100vh;
-    }
+<section><div class="container"><span class="section-kicker">Built for healthcare teams</span><h2 class="section-title">One platform. Three essential audiences.</h2><div class="grid-3">
+<article class="card audience-card reveal"><div class="icon">H</div><h3>Emergency room administrators</h3><p>Explore flexible physician coverage, controlled pilots, measurable outcomes, and operational support.</p><a class="btn btn-outline" href="hospital-solutions.html">Hospital solutions</a></article>
+<article class="card audience-card reveal"><div class="icon">N</div><h3>Triage nurses</h3><p>Gain an additional patient pathway while retaining professional judgment and hospital-approved processes.</p><a class="btn btn-outline" href="triage-nurses.html">For triage nurses</a></article>
+<article class="card audience-card reveal"><div class="icon">MD</div><h3>Physicians</h3><p>Provide scheduled virtual assessments within defined workflows and escalation protocols.</p><a class="btn btn-outline" href="physicians.html">Join the network</a></article>
+</div></div></section>
 
-    body::before {
-      content: "";
-      position: fixed;
-      inset: 0;
-      background: radial-gradient(circle at top left, rgba(12, 87, 125, 0.18), transparent 30%),
-                  radial-gradient(circle at bottom right, rgba(212, 63, 63, 0.14), transparent 28%);
-      pointer-events: none;
-      z-index: -1;
-    }
-
-    header {
-      background: linear-gradient(135deg, #0b4f71 0%, #0f5c86 100%);
-      color: #ffffff;
-      padding: 80px 24px 90px;
-      text-align: center;
-    }
-
-    .container {
-      width: min(1180px, calc(100% - 40px));
-      margin: 0 auto;
-    }
-
-    .brand {
-      font-size: 0.95rem;
-      letter-spacing: 0.22em;
-      text-transform: uppercase;
-      margin-bottom: 24px;
-      opacity: 0.85;
-    }
-
-    .hero-title {
-      font-size: clamp(2.5rem, 4vw, 4.5rem);
-      line-height: 1.02;
-      margin: 0;
-      max-width: 760px;
-      margin-inline: auto;
-    }
-
-    .hero-copy {
-      margin: 24px auto 0;
-      max-width: 720px;
-      font-size: 1.15rem;
-      line-height: 1.9;
-      color: rgba(255, 255, 255, 0.92);
-    }
-
-    .hero-actions {
-      margin-top: 34px;
-      display: flex;
-      justify-content: center;
-      gap: 16px;
-      flex-wrap: wrap;
-    }
-
-    .button,
-    .button-secondary {
-      border: none;
-      border-radius: 999px;
-      padding: 16px 28px;
-      font-size: 1rem;
-      cursor: pointer;
-      text-decoration: none;
-      font-weight: 700;
-      transition: transform 180ms ease, box-shadow 180ms ease, background-color 180ms ease;
-    }
-
-    .button {
-      background: #ff5f5f;
-      color: white;
-      box-shadow: 0 18px 40px rgba(255, 95, 95, 0.24);
-    }
-
-    .button:hover,
-    .button-secondary:hover {
-      transform: translateY(-1px);
-    }
-
-    .button-secondary {
-      background: rgba(255,255,255,0.15);
-      color: white;
-      border: 1px solid rgba(255,255,255,0.24);
-    }
-
-    main {
-      padding: 60px 0 100px;
-    }
-
-    .section {
-      padding: 60px 0;
-    }
-
-    .section-title {
-      text-align: center;
-      margin-bottom: 40px;
-      font-size: clamp(2rem, 2.5vw, 2.8rem);
-    }
-
-    .grid {
-      display: grid;
-      gap: 24px;
-    }
-
-    .features {
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    }
-
-    .feature-card {
-      background: var(--card);
-      border-radius: 22px;
-      padding: 28px;
-      box-shadow: var(--shadow);
-      text-align: left;
-      min-height: 220px;
-    }
-
-    .feature-card h3 {
-      margin-top: 0;
-      margin-bottom: 16px;
-      font-size: 1.25rem;
-    }
-
-    .feature-card p {
-      margin: 0;
-      color: var(--muted);
-      line-height: 1.75;
-    }
-
-    .how-it-works {
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      align-items: start;
-    }
-
-    .step {
-      display: grid;
-      gap: 16px;
-      background: var(--card);
-      border-radius: 24px;
-      padding: 28px;
-      box-shadow: var(--shadow);
-      text-align: left;
-    }
-
-    .step-number {
-      width: 48px;
-      height: 48px;
-      display: grid;
-      place-items: center;
-      border-radius: 14px;
-      background: #0b4f71;
-      color: white;
-      font-weight: 700;
-      font-size: 1rem;
-    }
-
-    .step h3 {
-      margin: 0;
-      font-size: 1.2rem;
-    }
-
-    .step p {
-      margin: 0;
-      color: var(--muted);
-      line-height: 1.75;
-    }
-
-    .cta-banner {
-      background: linear-gradient(135deg, rgba(11,79,113,0.95), rgba(212,63,63,0.95));
-      color: white;
-      border-radius: 28px;
-      padding: 50px 32px;
-      display: grid;
-      gap: 20px;
-      justify-items: center;
-      text-align: center;
-    }
-
-    .cta-banner h2,
-    .cta-banner p {
-      margin: 0;
-    }
-
-    .cta-banner p {
-      max-width: 720px;
-      color: rgba(255,255,255,0.9);
-    }
-
-    footer {
-      padding: 24px 0 40px;
-      text-align: center;
-      color: var(--muted);
-      font-size: 0.95rem;
-    }
-
-    @media (max-width: 680px) {
-      header {
-        padding-top: 60px;
-      }
-
-      .hero-copy {
-        font-size: 1rem;
-      }
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <div class="container">
-      <div class="brand">TriageConnect</div>
-      <h1 class="hero-title">Secure virtual physician assessment for emergency departments</h1>
-      <p class="hero-copy">Enable emergency departments to connect with qualified physicians for fast, secure telehealth triage and reduce non-urgent ER visits with an integrated virtual assessment workflow.</p>
-      <div class="hero-actions">
-        <a class="button" href="#contact">Contact Us</a>
-        <a class="button-secondary" href="#how-it-works">How It Works</a>
-      </div>
-    </div>
-  </header>
-
-  <main>
-    <section class="section">
-      <div class="container">
-        <div class="section-title">How TriageConnect Helps Your Facility</div>
-        <div class="grid features">
-          <article class="feature-card">
-            <h3>Fast access to specialists</h3>
-            <p>Streamline care by providing emergency departments with timely virtual physician assessments for patients who can be safely evaluated outside a full ER visit.</p>
-          </article>
-          <article class="feature-card">
-            <h3>Secure, compliant platform</h3>
-            <p>Protect patient privacy with secure video consultations and encrypted communication built for healthcare workflows.</p>
-          </article>
-          <article class="feature-card">
-            <h3>Better resource allocation</h3>
-            <p>Reduce overcrowding, improve throughput, and reserve emergency resources for patients who need in-person acute care.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="how-it-works" class="section" style="background: #edf3f8;">
-      <div class="container">
-        <div class="section-title">How it works</div>
-        <div class="grid how-it-works">
-          <div class="step">
-            <div class="step-number">1</div>
-            <h3>Patient triage</h3>
-            <p>An emergency department triage nurse identifies eligible patients who may benefit from virtual physician assessment instead of a full ER visit.</p>
-          </div>
-          <div class="step">
-            <div class="step-number">2</div>
-            <h3>Virtual assessment</h3>
-            <p>Patients connect securely with a physician for clinical evaluation, recommendation, and referral through a HIPAA-aligned telehealth session.</p>
-          </div>
-          <div class="step">
-            <div class="step-number">3</div>
-            <h3>Care coordination</h3>
-            <p>Physicians document the encounter, advise next steps, and coordinate follow-up care, reducing unnecessary emergency department burden.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container">
-        <div class="section-title">Designed for hospitals and physicians</div>
-        <div class="grid features">
-          <article class="feature-card">
-            <h3>Physician registration</h3>
-            <p>Qualified physicians can register to join the network and provide virtual consultations to partnering emergency departments.</p>
-          </article>
-          <article class="feature-card">
-            <h3>Hospital partnerships</h3>
-            <p>Partner hospitals gain access to a scalable telehealth triage system that supports patient safety and improves operational efficiency.</p>
-          </article>
-          <article class="feature-card">
-            <h3>Patient-centered care</h3>
-            <p>Patients receive faster guidance and care navigation with a secure virtual assessment experience tailored to their needs.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="section" style="padding-top: 0;">
-      <div class="container">
-        <div class="cta-banner">
-          <h2>Ready to connect with TriageConnect?</h2>
-          <p>We are building the platform and preparing hospital and physician onboarding resources. Reach out to learn more about joining the network.</p>
-          <a class="button" href="mailto:info@triageconnect.ca">Email Us</a>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="container">© 2026 TriageConnect. A secure virtual assessment service for emergency departments.</div>
-  </footer>
-</body>
-</html>
+<section class="bg-soft"><div class="container"><div class="cta-band reveal"><div><h2>Start with a controlled pilot.</h2><p>Define the patient population, hours, physician coverage, safety protocols, and success measures before scaling.</p></div><a class="btn btn-primary" href="contact.html">Discuss a pilot program</a></div></div></section>
+</main>
+<footer class="site-footer"><div class="container"><div class="footer-grid"><div><a class="brand" href="index.html"><span class="brand-mark">TC</span><span style="color:white">TriageConnect<strong>.ca</strong></span></a><p>Supporting emergency departments through secure virtual physician assessment.</p></div><div><h4>Solutions</h4><a href="hospital-solutions.html">Hospitals</a><a href="triage-nurses.html">Triage nurses</a><a href="physicians.html">Physicians</a></div><div><h4>Company</h4><a href="about.html">About</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a></div><div><h4>Important</h4><p>This website does not provide medical advice. For an emergency, call 911.</p></div></div><div class="footer-bottom">© 2026 TriageConnect.ca. All rights reserved.</div></div></footer>
+<script src="assets/js/site.js"></script></body></html>
