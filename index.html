@@ -31,7 +31,8 @@
         <a href="#solution">How It Works</a>
         <a href="#hospitals">For Hospitals</a>
         <a href="#physicians">For Physicians</a>
-        <a class="nav-cta" href="mailto:info@triageconnect.ca?subject=Hospital%20Consultation%20Request">Request a Consultation</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cta" href="#hospital-form">Book a Demonstration</a>
       </nav>
     </div>
   </header>
@@ -42,11 +43,11 @@
       <div class="hero-overlay"></div>
       <div class="container hero-content">
         <p class="eyebrow">Canadian virtual emergency care</p>
-        <h1 id="hero-title">Supporting Canada’s emergency departments with virtual physician triage.</h1>
-        <p class="hero-lead">Secure physician support designed to strengthen frontline clinical teams, support timely decision-making, and improve patient flow.</p>
+        <h1 id="hero-title">Helping Canadian emergency departments reduce wait times through secure virtual physician support.</h1>
+        <p class="hero-lead">TriageConnect adds secure virtual physician capacity at the point of triage—supporting frontline teams, improving patient flow, and helping hospitals respond to demand.</p>
         <div class="hero-actions">
-          <a class="button button-primary" href="mailto:info@triageconnect.ca?subject=Hospital%20Consultation%20Request">Request a Hospital Consultation</a>
-          <a class="button button-secondary" href="mailto:info@triageconnect.ca?subject=Physician%20Network%20Interest">Join the Physician Network</a>
+          <a class="button button-primary" href="#hospital-form">Book a Hospital Demonstration</a>
+          <a class="button button-secondary" href="#physician-form">Join the Physician Network</a>
         </div>
         <p class="hero-note">Built for Canadian hospitals, physicians, and patients.</p>
       </div>
@@ -189,7 +190,101 @@
           <span>Canadian-focused virtual care model</span>
           <span>Professional peer community</span>
         </div>
-        <a class="button button-light" href="mailto:info@triageconnect.ca?subject=Physician%20Network%20Interest">Express Physician Interest</a>
+        <a class="button button-light" href="#physician-form">Express Physician Interest</a>
+      </div>
+    </section>
+
+
+    <section class="section inquiry-section" id="contact">
+      <div class="container">
+        <div class="section-heading centered form-heading reveal">
+          <p class="eyebrow dark">Contact TriageConnect</p>
+          <h2>Start the right conversation.</h2>
+          <p>Select the form that best matches your interest. During the pilot, all submissions are delivered securely to the TriageConnect administrative inbox.</p>
+        </div>
+
+        <div class="form-grid">
+          <article class="form-card reveal" id="hospital-form">
+            <div class="form-card-heading">
+              <span class="form-label">For hospitals</span>
+              <h3>Request a Hospital Consultation</h3>
+              <p>Tell us about your organization and the emergency-care challenge you are exploring.</p>
+            </div>
+
+            <form action="https://formsubmit.co/admin@triageconnect.ca" method="POST">
+              <input type="hidden" name="_subject" value="TriageConnect — Hospital Consultation Request">
+              <input type="hidden" name="_template" value="table">
+              <input type="hidden" name="_next" value="https://triageconnect.ca/thank-you.html">
+              <input type="hidden" name="_autoresponse" value="Thank you for contacting TriageConnect. A member of our team will review your submission and respond within one business day.">
+              <input type="hidden" name="_captcha" value="false">
+              <input type="text" name="_honey" class="form-honeypot" tabindex="-1" autocomplete="off">
+
+              <label>Full name <span>*</span>
+                <input type="text" name="Full name" required autocomplete="name">
+              </label>
+              <label>Hospital or health system <span>*</span>
+                <input type="text" name="Hospital or health system" required autocomplete="organization">
+              </label>
+              <div class="field-row">
+                <label>Job title
+                  <input type="text" name="Job title" autocomplete="organization-title">
+                </label>
+                <label>Province
+                  <input type="text" name="Province">
+                </label>
+              </div>
+              <label>Business email <span>*</span>
+                <input type="email" name="Email" required autocomplete="email">
+              </label>
+              <label>Phone
+                <input type="tel" name="Phone" autocomplete="tel">
+              </label>
+              <label>How could TriageConnect support your organization?
+                <textarea name="Message" rows="5"></textarea>
+              </label>
+              <button class="button button-primary form-button" type="submit">Request Consultation</button>
+            </form>
+          </article>
+
+          <article class="form-card reveal" id="physician-form">
+            <div class="form-card-heading">
+              <span class="form-label">For physicians</span>
+              <h3>Join the Physician Network</h3>
+              <p>Share your clinical background and interest in supporting Canadian emergency teams virtually.</p>
+            </div>
+
+            <form action="https://formsubmit.co/admin@triageconnect.ca" method="POST">
+              <input type="hidden" name="_subject" value="TriageConnect — Physician Network Interest">
+              <input type="hidden" name="_template" value="table">
+              <input type="hidden" name="_next" value="https://triageconnect.ca/thank-you.html">
+              <input type="hidden" name="_autoresponse" value="Thank you for contacting TriageConnect. A member of our team will review your submission and respond within one business day.">
+              <input type="hidden" name="_captcha" value="false">
+              <input type="text" name="_honey" class="form-honeypot" tabindex="-1" autocomplete="off">
+
+              <label>Full name <span>*</span>
+                <input type="text" name="Full name" required autocomplete="name">
+              </label>
+              <label>Medical specialty
+                <input type="text" name="Medical specialty">
+              </label>
+              <label>Province(s) licensed
+                <input type="text" name="Province(s) licensed">
+              </label>
+              <label>Email <span>*</span>
+                <input type="email" name="Email" required autocomplete="email">
+              </label>
+              <label>Phone
+                <input type="tel" name="Phone" autocomplete="tel">
+              </label>
+              <label>Tell us about your experience and availability
+                <textarea name="Message" rows="5"></textarea>
+              </label>
+              <button class="button button-primary form-button" type="submit">Apply to Join</button>
+            </form>
+          </article>
+        </div>
+
+        <p class="form-note">The first form submission will trigger a one-time FormSubmit activation email to admin@triageconnect.ca. Open that message and approve the form before public use.</p>
       </div>
     </section>
 
@@ -200,7 +295,7 @@
           <p class="eyebrow">Start a conversation</p>
           <h2>Let’s explore how virtual physician triage could support your emergency department.</h2>
         </div>
-        <a class="button button-primary" href="mailto:info@triageconnect.ca?subject=TriageConnect%20Hospital%20Consultation">Request a Consultation</a>
+        <a class="button button-primary" href="#hospital-form">Request a Consultation</a>
       </div>
     </section>
   </main>
@@ -220,7 +315,7 @@
       </div>
       <div>
         <h3>Contact</h3>
-        <a href="mailto:info@triageconnect.ca">info@triageconnect.ca</a>
+        <a href="mailto:admin@triageconnect.ca">admin@triageconnect.ca</a>
         <span>Canada</span>
       </div>
     </div>
