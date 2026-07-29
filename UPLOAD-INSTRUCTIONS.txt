@@ -1,37 +1,23 @@
-TRIAGECONNECT V1 LAUNCH UPDATE
+TRIAGECONNECT.CA — LAUNCH EDITION 1.0
 
-This package includes:
-- Updated CTAS workflow wording
-- Larger transparent TriageConnect.ca header logo
-- SVG website logo
-- Transparent PNG logo
-- White logo version for dark backgrounds
-- High-resolution transparent logo
-- Favicon
-- Hospital and physician forms
-- Professional thank-you page
+PRIVATE REVIEW PACKAGE — DO NOT PUBLISH UNTIL APPROVED
 
-UPLOAD TO THE ROOT OF GITHUB:
+Files to upload together:
 - index.html
+- hospital-solutions.html
+- physicians.html
+- about.html
+- contact.html
+- privacy.html
+- terms.html
+- thank-you.html
 - styles.css
 - script.js
-- thank-you.html
+- complete assets folder
 
-INSIDE THE GITHUB assets FOLDER, UPLOAD/REPLACE:
-- triageconnect-logo.svg
-- triageconnect-logo.png
-- triageconnect-logo-transparent.png
-- triageconnect-logo-hires.png
-- triageconnect-logo-white.png
-- favicon.png
-- hero-er.png
-- stressed-nurse.png
-- wait-time.png
-
-Do not delete CNAME, README.md, .gitattributes, or your other HTML pages.
-
-After uploading:
-1. Commit the changes.
-2. Wait for Cloudflare to deploy.
-3. Open an InPrivate/Incognito window to avoid the old cached logo.
-4. Submit one form and approve the one-time FormSubmit activation email sent to admin@triageconnect.ca.
+Important before public launch:
+1. Review every page on desktop and mobile.
+2. Test both forms. FormSubmit may require one email activation confirmation.
+3. Have privacy, legal, clinical, and security language reviewed by appropriate Canadian professionals.
+4. Do not submit patient information through the public forms.
+5. Replace the existing website only after final approval.
