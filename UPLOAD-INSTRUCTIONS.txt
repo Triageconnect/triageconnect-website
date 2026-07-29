@@ -1,37 +1,10 @@
-TRIAGECONNECT V1 LAUNCH UPDATE
+TRIAGECONNECT VERSION 2.1 — DEVELOPMENT PREVIEW
 
-This package includes:
-- Updated CTAS workflow wording
-- Larger transparent TriageConnect.ca header logo
-- SVG website logo
-- Transparent PNG logo
-- White logo version for dark backgrounds
-- High-resolution transparent logo
-- Favicon
-- Hospital and physician forms
-- Professional thank-you page
+1. Extract this ZIP file.
+2. Open the Development branch of your GitHub repository.
+3. Upload EVERYTHING inside the extracted folder, including the assets folder.
+4. Commit the changes to Development.
+5. Wait for the Cloudflare preview deployment to show Success.
+6. Review the preview before merging or uploading to main.
 
-UPLOAD TO THE ROOT OF GITHUB:
-- index.html
-- styles.css
-- script.js
-- thank-you.html
-
-INSIDE THE GITHUB assets FOLDER, UPLOAD/REPLACE:
-- triageconnect-logo.svg
-- triageconnect-logo.png
-- triageconnect-logo-transparent.png
-- triageconnect-logo-hires.png
-- triageconnect-logo-white.png
-- favicon.png
-- hero-er.png
-- stressed-nurse.png
-- wait-time.png
-
-Do not delete CNAME, README.md, .gitattributes, or your other HTML pages.
-
-After uploading:
-1. Commit the changes.
-2. Wait for Cloudflare to deploy.
-3. Open an InPrivate/Incognito window to avoid the old cached logo.
-4. Submit one form and approve the one-time FormSubmit activation email sent to admin@triageconnect.ca.
+This package includes the simplified homepage, the selected male-clinician virtual-consult hero image, and the updated logo with the ECG line removed while retaining the maple-leaf compass and monitor icon.
