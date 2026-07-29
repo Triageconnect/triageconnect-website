@@ -1,23 +1,10 @@
-TRIAGECONNECT.CA — LAUNCH EDITION 1.0
+TRIAGECONNECT VERSION 2.1 — DEVELOPMENT PREVIEW
 
-PRIVATE REVIEW PACKAGE — DO NOT PUBLISH UNTIL APPROVED
+1. Extract this ZIP file.
+2. Open the Development branch of your GitHub repository.
+3. Upload EVERYTHING inside the extracted folder, including the assets folder.
+4. Commit the changes to Development.
+5. Wait for the Cloudflare preview deployment to show Success.
+6. Review the preview before merging or uploading to main.
 
-Files to upload together:
-- index.html
-- hospital-solutions.html
-- physicians.html
-- about.html
-- contact.html
-- privacy.html
-- terms.html
-- thank-you.html
-- styles.css
-- script.js
-- complete assets folder
-
-Important before public launch:
-1. Review every page on desktop and mobile.
-2. Test both forms. FormSubmit may require one email activation confirmation.
-3. Have privacy, legal, clinical, and security language reviewed by appropriate Canadian professionals.
-4. Do not submit patient information through the public forms.
-5. Replace the existing website only after final approval.
+This package includes the simplified homepage, the selected male-clinician virtual-consult hero image, and the updated logo with the ECG line removed while retaining the maple-leaf compass and monitor icon.
