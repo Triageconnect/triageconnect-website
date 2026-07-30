@@ -1,10 +1,16 @@
-TRIAGECONNECT VERSION 2.1 — DEVELOPMENT PREVIEW
+TRIAGECONNECT VERSION 2.1.1 — CORRECTED DEVELOPMENT PREVIEW
 
-1. Extract this ZIP file.
-2. Open the Development branch of your GitHub repository.
-3. Upload EVERYTHING inside the extracted folder, including the assets folder.
-4. Commit the changes to Development.
-5. Wait for the Cloudflare preview deployment to show Success.
-6. Review the preview before merging or uploading to main.
+This correction includes:
+- The selected male clinician at the triage desk speaking with the online physician.
+- A high-resolution logo with the maple-leaf compass and monitor retained.
+- The EKG/horizontal line removed.
+- PNG hero image and cache-busting references to prevent the old image/logo from appearing.
 
-This package includes the simplified homepage, the selected male-clinician virtual-consult hero image, and the updated logo with the ECG line removed while retaining the maple-leaf compass and monitor icon.
+UPLOAD:
+1. Extract this ZIP.
+2. Open the extracted folder.
+3. Upload EVERYTHING INSIDE the folder to the GitHub Development branch.
+4. Include the complete assets folder.
+5. Replace the existing files.
+6. Wait for the new Cloudflare deployment to show Success.
+7. Open the newest deployment and press Ctrl+F5 once.
