@@ -1,0 +1,12 @@
+TRIAGECONNECT VERSION 3 — CLEAN DEVELOPMENT BUILD
+
+This is a complete clean replacement, not a patch.
+
+1. Extract this ZIP.
+2. Open the TriageConnect_V3 folder.
+3. Upload EVERYTHING INSIDE the folder to the GitHub Development branch.
+4. The assets folder must be uploaded with the files.
+5. Commit as: Upload TriageConnect Version 3 clean build.
+6. Wait for the Cloudflare Preview green check.
+7. Open the newest Development preview and press Ctrl+F5 once.
+8. Do not merge to main until approved.

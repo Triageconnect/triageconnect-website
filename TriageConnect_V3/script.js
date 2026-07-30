@@ -1,0 +1,1 @@
+const t=document.querySelector('.menu-toggle'),n=document.querySelector('.main-nav');if(t&&n)t.onclick=()=>n.classList.toggle('open');const y=document.getElementById('year');if(y)y.textContent=new Date().getFullYear();
