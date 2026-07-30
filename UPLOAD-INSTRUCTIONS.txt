@@ -1,10 +1,12 @@
-TRIAGECONNECT VERSION 2.1 — DEVELOPMENT PREVIEW
+TRIAGECONNECT VERSION 3 — CLEAN DEVELOPMENT BUILD
 
-1. Extract this ZIP file.
-2. Open the Development branch of your GitHub repository.
-3. Upload EVERYTHING inside the extracted folder, including the assets folder.
-4. Commit the changes to Development.
-5. Wait for the Cloudflare preview deployment to show Success.
-6. Review the preview before merging or uploading to main.
+This is a complete clean replacement, not a patch.
 
-This package includes the simplified homepage, the selected male-clinician virtual-consult hero image, and the updated logo with the ECG line removed while retaining the maple-leaf compass and monitor icon.
+1. Extract this ZIP.
+2. Open the TriageConnect_V3 folder.
+3. Upload EVERYTHING INSIDE the folder to the GitHub Development branch.
+4. The assets folder must be uploaded with the files.
+5. Commit as: Upload TriageConnect Version 3 clean build.
+6. Wait for the Cloudflare Preview green check.
+7. Open the newest Development preview and press Ctrl+F5 once.
+8. Do not merge to main until approved.
